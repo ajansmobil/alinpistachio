@@ -1,0 +1,3 @@
+User-agent: *
+  Disallow:
+  Sitemap: https://alinpistachio.com.tr/map.xml
