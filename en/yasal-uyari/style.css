@@ -1,5 +1,5 @@
 
-  .kxy2l {
+  .e275m {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .kxy2ltitle {
+  .e275mtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .kxy2ltitlebody {
+  .e275mtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .kxy2ltitlebodytitle {
+  .e275mtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .kxy2ltitlebodylang {
+  .e275mtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .kxy2ltitlebodylang ul {
+  .e275mtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .kxy2lbody {
+  .e275mbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .kxy2lmenu {
+  .e275mmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .kxy2lmenulist {
+  .e275mmenulist {
     width: calc(100% - 20px);
     background-color: #58812E;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .kxy2lmenubody {
+  .e275mmenubody {
     width: 100%;
     background-color: #58812E;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .kxy2lmenulist ul {
+  .e275mmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .kxy2lmenulist ul a {
+  .e275mmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .kxy2lmenulist ul a:hover {
+  .e275mmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .kxy2lmenulistactive {
+  .e275mmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .kxy2lmenulistbody {
+  .e275mmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .kxy2lbodylogo {
+    .e275mbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .kxy2lmenu {
+    .e275mmenu {
       overflow-x: auto;
     }
 
-    .kxy2lmenulist ul {
+    .e275mmenulist ul {
       flex-direction: row;
     }
 
-    .kxy2lbodylogo {
+    .e275mbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .kxy2lmenulist ul a {
+    .e275mmenulist ul a {
       font-size: 14px;
     }
   }
@@ -147,7 +147,7 @@
     justify-content: start;
   }
 
-  .oqiz1 {
+  .w4vim {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -155,7 +155,7 @@
     position: relative;
   }
 
-  .oqiz1-menu-btn {
+  .w4vim-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -167,11 +167,11 @@
     align-items: center;
   }
 
-  .oqiz1-menu-btn i {
+  .w4vim-menu-btn i {
     font-size: 20px;
   }
 
-  .oqiz1-menu {
+  .w4vim-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -182,28 +182,28 @@
     float: left;
   }
 
-  .oqiz1-desc {
+  .w4vim-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .oqiz1-menu>a {
+  .w4vim-menu>a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .oqiz1-menu>.active,
-  .oqiz1-menu>a:hover {
+  .w4vim-menu>.active,
+  .w4vim-menu>a:hover {
     background-color: #1e3046;
     color: #fff;
     display: flex;
   }
 
-  .oqiz1-desc-menu {
+  .w4vim-desc-menu {
     width: 200px;
     background-color: #1e3046;
     display: flex;
@@ -211,19 +211,19 @@
     border-radius: 5px;
   }
 
-  .oqiz1-desc-menu>div {
+  .w4vim-desc-menu>div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .oqiz1-desc-body {
+  .w4vim-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .oqiz1-title {
+  .w4vim-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -236,7 +236,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .oqiz1-title::before {
+  .w4vim-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -251,43 +251,43 @@
     z-index: 1;
   }
 
-  .oqiz1-title span {
+  .w4vim-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .oqiz1-body {
+  .w4vim-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .oqiz1-img {
+  .w4vim-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .oqiz1-img img {
+  .w4vim-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .oqiz1-desc {
+    .w4vim-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .oqiz1-menu-btn {
+    .w4vim-menu-btn {
       display: flex;
       width: calc(100% - 55px);
       margin-left: 5px;    }
 
-    .oqiz1 {
+    .w4vim {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -297,17 +297,17 @@
 
     }
 
-    .oqiz1-img {
+    .w4vim-img {
       width: 100%;
     }
 
-    .oqiz1-body {
+    .w4vim-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .oqiz1-menu {
+    .w4vim-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -315,11 +315,11 @@
       display: none;
     }
 
-    .oqiz1-menu.active {
+    .w4vim-menu.active {
       display: flex;
     }
 
-    .oqiz1-desc {
+    .w4vim-desc {
       width: 100% !important;
       order: 2;
     }
